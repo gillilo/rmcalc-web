@@ -14,13 +14,13 @@
   <nav class="nav-menu">
     <ul class="nav-list">
       <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-      <li class="nav-item"><a href="/calculator" class="nav-link">Calculator</a></li>
+      <li class="nav-item"><a href="/formula" class="nav-link">Formula</a></li>
+      <li class="nav-item"><a href="/api" class="nav-link">API</a></li>
     </ul>
   </nav>
 
   <div class="logo-container">
-    <a href="https://github.com/your-repository" target="_blank">
+    <a href="https://github.com/gillilo/rmcalc-web" target="_blank">
       <img src={github} alt="GitHub" class="logo">
     </a>
   </div>
@@ -29,6 +29,7 @@
 
 <style lang='scss'>
   .header {
+		font-size: 1.3rem;
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -41,26 +42,26 @@
 				}
 			}
 		}
-  }
-
-  .nav-menu {
-    display: flex;
-    justify-content: center;
-		.nav-list {
-			list-style: none;
+		.nav-menu {
 			display: flex;
-			gap: 1rem;
-			padding: 0;
-			margin: 0;
-			.nav-item {
-				.nav-link {
-					text-decoration: none;
-					color: #000;
-					&:hover {
-						color: #007bff;
+			justify-content: center;
+			.nav-list {
+				list-style: none;
+				display: flex;
+				gap: 1rem;
+				padding: 0;
+				margin: 0;
+				.nav-item {
+					.nav-link {
+						text-decoration: none;
+						color: $color--black;
+						&:hover {
+							color: $color--primary;
+						}
 					}
 				}
 			}
 		}
   }
+
 </style>
