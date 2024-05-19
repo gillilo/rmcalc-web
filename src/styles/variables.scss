@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$color--black: #000;
+$color--black-90: rgba($color--black, .9);
+$color--black-80: rgba($color--black, .8);
+$color--black-70: rgba($color--black, .7);
+$color--black-50: rgba($color--black, .5);
+$color--black-30: rgba($color--black, .3);
+
+$color--white: #EBEBEB;
+$color--white-90: rgba($color--white, .9);
+$color--white-80: rgba($color--white, .8);
+$color--white-70: rgba($color--white, .7);
+$color--white-60: rgba($color--white, .6);
+$color--white-50: rgba($color--white, .5);
+$color--white-30: rgba($color--white, .3);
+$color--white-10: rgba($color--white, .1);
+$color--white-5: rgba($color--white, .05);
+
+$color--primary: #970008;
+$color--area: #DBDBDB;
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
