@@ -8,6 +8,10 @@
 
 <main>
   <h1>One<br/>Repetition<br/>Maximum<br/>Calculator</h1>
+  <section class="des">
+    1RM(1 Repetition Maximum) Calculator는 사용자가 특정 운동에서 수행할 수 있는 최대 중량을 간접적으로 추정하는 도구입니다. <br/>
+    이 계산기는 직접적으로 최대 중량을 들기 어려운 사용자에게 안전하게 자신의 근력을 평가할 수 있는 방법을 제공합니다. <br/>
+  </section>
   
   <section>
     <div class="section-title">One RepetitionMaximum</div>
@@ -125,21 +129,23 @@
     </div>
   </section>
 
-  <figure class="text-center">
-    <blockquote class="blockquote">
-      <p>1RM은 개인의 운동 능력을 평가하고 향상시키는 데 중요한 도구입니다.</p>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-      이를 잘 활용하면 더욱 효과적이고 안전한 운동 프로그램을 설계할 수 있습니다.
-    </figcaption>
-  </figure>
+  <section>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>1RM은 개인의 운동 능력을 평가하고 향상시키는 데 중요한 지표입니다.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        이를 잘 활용하면 더욱 효과적이고 안전한 운동 프로그램을 설계할 수 있습니다.
+      </figcaption>
+    </figure>
+  </section>
+
 </main>
 
 <style lang="scss">
   main {
     h1 {
       font-size: 7rem;
-      margin-bottom: 5rem;
       line-height: 7rem;
     }
     section {
@@ -164,6 +170,9 @@
   }
   .formula {
     margin: 0;
+  }
+  .des {
+    font-size: 1rem;
   }
   // .summary {
   //   font-size: 1.5rem;
