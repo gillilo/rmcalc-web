@@ -165,7 +165,7 @@
   .formula {
     margin: 0;
   }
-  .summary {
-    // font-size: 1.5rem;
-  }
+  // .summary {
+  //   font-size: 1.5rem;
+  // }
 </style>
