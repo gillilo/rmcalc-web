@@ -10,9 +10,9 @@ const config = {
 		adapter: adapter()
 	},
 	preprocess: preprocess({
-    scss: {
-      prependData: `@import 'src/styles/variables.scss';`
-    }
+		scss: {
+		  prependData: `@import 'src/styles/variables.scss';`
+		},
   })
 };
 
