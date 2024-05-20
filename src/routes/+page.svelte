@@ -140,7 +140,10 @@
     </figure>
   </section>
 
-  <section></section>
+  <section class="example-sec">
+    <div>계산하러 가기</div>
+    <a class="example" href="/example">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a>
+  </section>
 </main>
 
 <style lang="scss">
@@ -178,4 +181,27 @@
   // .summary {
   //   font-size: 1.5rem;
   // }
+
+  .example-sec {
+    text-align: center;
+    div {
+      margin-bottom: 0.5rem;
+    }
+    .example {
+      text-decoration: none;
+      cursor: pointer;
+      background-color: $color--black-40;
+      color: $color--white;
+      font-size: 1.5rem;
+      font-weight: 600;
+      min-width: 2rem;
+      min-height: 2rem;
+      padding: 0.5rem;
+      border-radius: 5rem;
+      &:hover {
+        background-color: $color--black-50;
+        transition: .3s;
+      }
+    }
+  }
 </style>
