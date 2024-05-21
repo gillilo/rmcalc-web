@@ -7,7 +7,7 @@
 <div class="card c">
 	<div class="card-header">
 		<div class="card-title">
-			1RM 계산
+			1RM 계산 (모든 공식 평균)
 		</div>
 	</div>
 	<div class="card-body">
@@ -54,7 +54,7 @@
 <div class="card c">
 	<div class="card-header">
 		<div class="card-title">
-			1RM 계산
+			1RM 계산 (모든 공식)
 		</div>
 	</div>
 	<div class="card-body">
@@ -114,7 +114,7 @@
 <div class="card c">
 	<div class="card-header">
 		<div class="card-title">
-			1RM 계산
+			1RM 계산 (특정 공식 값만 반환)
 		</div>
 	</div>
 	<div class="card-body">
@@ -176,7 +176,7 @@
 <div class="card c">
 	<div class="card-header">
 		<div class="card-title">
-			1RM 계산
+			1RM 계산 (특정 공식 이름, 값 반환)
 		</div>
 	</div>
 	<div class="card-body">
