@@ -21,8 +21,8 @@
 <header class="header">
 
   <div class="logo-container">
-    <a href="https://kit.svelte.dev/">
-			<img src={logo} alt="GitHub" class="logo"/>
+    <a href="https://github.com/gillilo/rmcalc-web" target="_blank">
+			<img src={logo} alt="web app github" class="logo"/>
 		</a>
   </div>
 
@@ -35,8 +35,8 @@
   </nav>
 
   <div class="logo-container">
-    <a href="https://github.com/gillilo/rmcalc-web" target="_blank">
-      <img src={github} alt="GitHub" class="logo">
+    <a href="https://github.com/gillilo/rmcalc-express" target="_blank">
+      <img src={github} alt="express api github" class="logo">
     </a>
   </div>
 
