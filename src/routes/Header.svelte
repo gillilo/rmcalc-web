@@ -19,13 +19,11 @@
 </script>
 
 <header class="header">
-
   <div class="logo-container">
     <a href="https://github.com/gillilo/rmcalc-web" target="_blank">
 			<img src={logo} alt="web app github" class="logo"/>
 		</a>
   </div>
-
   <nav class="nav-menu">
     <ul class="nav-list">
 		{#each menus as menu}
@@ -33,21 +31,19 @@
 		{/each}
     </ul>
   </nav>
-
   <div class="logo-container">
     <a href="https://github.com/gillilo/rmcalc-express" target="_blank">
       <img src={github} alt="express api github" class="logo">
     </a>
   </div>
-
 </header>
 
 <style lang='scss'>
   .header {
 		font-size: 1.3rem;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
 		.logo-container {
 			display: flex;
 			align-items: center;
@@ -78,5 +74,4 @@
 			}
 		}
   }
-
 </style>
