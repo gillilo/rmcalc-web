@@ -1,6 +1,21 @@
 <script>
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+
+	const menus = [
+		{
+			href: '/',
+			name: 'Home',
+		},
+		{
+			href: '/formula',
+			name: 'Formula',
+		},
+		{
+			href: '/api',
+			name: 'API',
+		},
+	]
 </script>
 
 <header class="header">
@@ -13,9 +28,9 @@
 
   <nav class="nav-menu">
     <ul class="nav-list">
-      <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="/formula" class="nav-link">Formula</a></li>
-      <li class="nav-item"><a href="/api" class="nav-link">API</a></li>
+		{#each menus as menu}
+			<li class="nav-item"><a href={menu.href} class="nav-link">{menu.name}</a></li>
+		{/each}
     </ul>
   </nav>
 
