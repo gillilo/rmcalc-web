@@ -38,11 +38,11 @@
 
 <div class="body">
 	<h1>1RM Calculation Formulas</h1>
-	{#each formulas as formula}
+	{#each formulas as formula, i}
 	<div class="formula card">
 		<div class="card-header">
 			<div class="card-title">
-				<h2>1. {formula.name} 공식</h2>
+				<h2>{i + 1}. {formula.name} 공식</h2>
 			</div>
 		</div>
 		<div class="card-body">
