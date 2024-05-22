@@ -30,12 +30,12 @@
                 <p>O'Conner: ${oconner.toFixed(2)} kg</p>
                 <p>Wathan: ${wathan.toFixed(2)} kg</p>
             `;
-        }
+	}
 </script>
 
 <svelte:head>
-	<title>Formula</title>
-	<meta name="description" content="Formula of 1RM" />
+	<title>Calculate example</title>
+	<meta name="description" content="Calculate example" />
 </svelte:head>
 
 <div class="container">

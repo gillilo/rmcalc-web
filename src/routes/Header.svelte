@@ -12,7 +12,7 @@
 			name: 'Formula',
 		},
 		{
-			href: '/api',
+			href: '/apidoc',
 			name: 'API',
 		},
 	]
