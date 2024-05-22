@@ -7,8 +7,12 @@
 	/** @type {any[]} */
 	let data = [];
 	async function calcAll() {
-		const response = await axios.post('api/calcAll', {weight, reps});
-		data = await response.data;
+		try {
+			const response = await axios.post('api/calcAll', {weight, reps});
+			data = await response.data;
+		} catch (error) {
+			console.log(error);
+		}
 	}
 </script>
 
