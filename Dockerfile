@@ -13,4 +13,4 @@ ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 CMD ["/app/server.sh"]
 
 # docker build -t test .
-# docker run -d --network rmcalc --name test -p 3000:3000 -e RMCALC_EXPRESS_URL=rmcalc-apitest:81 test
+# docker run -d --network rmcalc --name test -p 3000:3000 -e RMCALC_EXPRESS_URL=http://rmcalc-apitest:81 test
