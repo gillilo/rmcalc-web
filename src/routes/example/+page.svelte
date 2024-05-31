@@ -6,9 +6,9 @@
 
 	/** @type {any[]} */
 	let data = [];
-	async function calcAll() {
+	async function calc() {
 		try {
-			const response = await axios.post('api/calcAll', {weight, reps});
+			const response = await axios.post('api/calc', {weight, reps});
 			data = await response.data;
 		} catch (error) {
 			console.log(error);
@@ -29,7 +29,7 @@
 	<label for="reps">Repetitions:</label>
 	<input type="number" bind:value={reps}>
 	
-	<button on:click={calcAll}>Calculate 1RM</button>
+	<button on:click={calc}>Calculate 1RM</button>
 	
 	<div class="result" id="result">
 		{#each data as d}
