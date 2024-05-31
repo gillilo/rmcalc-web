@@ -9,6 +9,7 @@
 	async function calcAll() {
 		try {
 			const response = await axios.post('calc/calcAll', {weight, reps});
+			console.log(response);
 			data = await response.data;
 		} catch (error) {
 			console.log(error);

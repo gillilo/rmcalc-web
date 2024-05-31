@@ -10,14 +10,4 @@ export async function POST(req) {
     const bodyParams = await promise.then(r => {return r;});
     const apiData = await axios.post(`${RMCALC_EXPRESS_URL}/api/calc`, bodyParams)
     return new Response(JSON.stringify(apiData.data));
-    // let apiData;
-    // await axios.post(`${RMCALC_EXPRESS_URL}/api/calc`, bodyParams)
-    // .then(r => {
-    //     apiData = r.data;
-    // })
-    // .catch(e => {
-    //     if (e.code === 'ERR_BAD_REQUEST') {error(404, 'Incorrect Backend API URL');}
-    //     if (e.code === 'ECONNREFUSED') {error(404, 'Backend API terminated');}
-    // })
-    // return new Response(JSON.stringify(apiData));
 }
