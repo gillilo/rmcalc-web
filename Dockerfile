@@ -15,5 +15,6 @@ ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 # CMD ["node", "/app/build"]
 CMD ["/app/server.sh"]
 
-# docker build -t test .
+# docker build -t gillilo/rmcalc-web:latest .
+# docker push gillilo/rmcalc-web:latest
 # docker run -d --network rmcalc --name rmcalc-web -p 3000:3000 -e RMCALC_EXPRESS_URL=http://rmcalc-express:81 gillilo/rmcalc-web:latest
